@@ -1,5 +1,7 @@
+SRC='src'
+
 train:
-	python3 gan_mnist_train.py
+	python3 ${SRC}/gan_mnist_train.py
 
 test:
-	python3 gan_mnist_test.py
+	python3 ${SRC}/gan_mnist_test.py
